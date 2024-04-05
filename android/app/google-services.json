@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132963609386",
+    "project_id": "flutter-uride-with-admin",
+    "storage_bucket": "flutter-uride-with-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132963609386:android:fd9f99856e4f17fa1acc53",
+        "android_client_info": {
+          "package_name": "com.abate.userapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbePva1MH7V9S2C4TMzwrwCMOME7k5g50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

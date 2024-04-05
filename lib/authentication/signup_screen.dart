@@ -10,6 +10,24 @@ class SignupScreen extends StatefulWidget {
 class _SignupScreenState extends State<SignupScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Column(
+            children: [
+
+              Image.asset(
+                "assets/images/riderlogo.png"
+              ),
+
+              Text(
+                "Create a User\'s Account",
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
