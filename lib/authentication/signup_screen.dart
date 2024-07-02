@@ -30,12 +30,14 @@ class _SignupScreenState extends State<SignupScreen> {
         cMethods.displaySnackBar("Your userName must be greater than 4 letters. ", context);
     }
     else if(userPhoneTextEditingController.text.trim().length < 7){
-      cMethods.displaySnackBar("Your Phone number must be greater than 7 characters! ", context);
+      cMethods.displaySnackBar("Your Phone number must be greater than 8 characters! ", context);
     }
     else if(!emailTextEditingController.text.contains("@")){
       cMethods.displaySnackBar("Your email must have @ to be correct.", context);
     }
-    else
+    else if(passwordTextEditingController.text.trim().length<5){
+      cMethods.displaySnackBar("Your password must be at least 6 or more characters! ", context);
+    }
       {
         // register user
         registerNewUser();
